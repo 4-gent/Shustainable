@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './App.css';
+import './main.css';
 import Navigation from './components/navbar';
 
 function Main() {

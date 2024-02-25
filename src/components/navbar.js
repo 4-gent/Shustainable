@@ -3,6 +3,7 @@ import { Navbar, Container, Nav } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../public/navbar.css';
 import Logo from "../images/SH.png";
+import signOn from '../routes/signOn';
 
 export default function Navigation(){
     return(
@@ -15,7 +16,9 @@ export default function Navigation(){
                         <Nav>
                             <Nav.Link href="/">Home</Nav.Link>
                             <Nav.Link href="/whatisshustainablle">Thingy</Nav.Link>
+
                             <Nav.Link href="/profile">Profile</Nav.Link>
+                            <Nav.Link href='/signOn'>Sign In</Nav.Link>
                         </Nav>
                 </Container>
             </Navbar>
