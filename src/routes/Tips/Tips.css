@@ -1,0 +1,469 @@
+.tip-submissions {
+    background-color: #f9f7f1;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .tip-submissions .overlap-wrapper {
+    background-color: #f9f7f1;
+    height: 817.91px;
+    overflow: hidden;
+    width: 377.73px;
+  }
+  
+  .tip-submissions .overlap {
+    height: 904px;
+    position: relative;
+    top: -86px;
+    width: 689px;
+  }
+  
+  .tip-submissions .post {
+    height: 261px;
+    left: 22px;
+    position: absolute;
+    top: 610px;
+    width: 336px;
+  }
+  
+  .tip-submissions .overlap-group {
+    height: 261px;
+    position: relative;
+    width: 334px;
+  }
+  
+  .tip-submissions .div {
+    background-color: #ffffff;
+    border-radius: 10.07px;
+    box-shadow: 0px 0px 40.29px #0000001a;
+    height: 122px;
+    left: 0;
+    position: absolute;
+    top: 139px;
+    width: 333px;
+  }
+  
+  .tip-submissions .image {
+    height: 146px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 333px;
+  }
+  
+  .tip-submissions .businesses-sell {
+    height: 15px;
+    left: 16px;
+    position: absolute;
+    top: 165px;
+    width: 297px;
+  }
+  
+  .tip-submissions .post-info {
+    height: 42px;
+    left: 10px;
+    position: absolute;
+    top: 190px;
+    width: 304px;
+  }
+  
+  .tip-submissions .save-like {
+    height: 34px;
+    left: 246px;
+    position: absolute;
+    top: 8px;
+    width: 60px;
+  }
+  
+  .tip-submissions .vector {
+    height: 17px;
+    left: -1px;
+    position: absolute;
+    top: 1px;
+    width: 14px;
+  }
+  
+  .tip-submissions .overlap-group-2 {
+    height: 34px;
+    left: 36px;
+    position: absolute;
+    top: 0;
+    width: 22px;
+  }
+  
+  /* .tip-submissions .group {
+    background-image: url(./valentines-heart.png);
+    background-size: 100% 100%;
+    height: 19px;
+    left: 2px;
+    position: absolute;
+    top: 0;
+    width: 19px;
+  } */
+  
+  .tip-submissions .text-wrapper {
+    color: #a1a8b9;
+    font-family: "Inter-Medium", Helvetica;
+    font-size: 12.1px;
+    font-weight: 500;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 19px;
+  }
+  
+  .tip-submissions .OP {
+    height: 29px;
+    left: 37px;
+    position: absolute;
+    top: 3px;
+    width: 63px;
+  }
+  
+  .tip-submissions .group-2 {
+    height: 29px;
+    position: relative;
+    width: 67px;
+  }
+  
+  .tip-submissions .taylor-swift {
+    height: 11px;
+    left: 0;
+    position: absolute;
+    top: 3px;
+    width: 61px;
+  }
+  
+  .tip-submissions .p {
+    color: #a1a8b9;
+    font-family: "Inter-Medium", Helvetica;
+    font-size: 9.4px;
+    font-weight: 500;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 17px;
+  }
+  
+  .tip-submissions .TS-pfp {
+    height: 34px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 34px;
+  }
+  
+  .tip-submissions .overlap-group-wrapper {
+    height: 261px;
+    left: 22px;
+    position: absolute;
+    top: 324px;
+    width: 336px;
+  }
+  
+  .tip-submissions .save-like-2 {
+    height: 34px;
+    left: 261px;
+    position: absolute;
+    top: 222px;
+    width: 60px;
+  }
+  
+  .tip-submissions .img {
+    height: 19px;
+    left: 2px;
+    position: absolute;
+    top: 0;
+    width: 19px;
+  }
+  
+  .tip-submissions .OP-2 {
+    height: 29px;
+    left: 15px;
+    position: absolute;
+    top: 217px;
+    width: 104px;
+  }
+  
+  .tip-submissions .ellipse {
+    height: 29px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 29px;
+  }
+  
+  .tip-submissions .group-3 {
+    height: 29px;
+    left: 37px;
+    position: absolute;
+    top: 0;
+    width: 71px;
+  }
+  
+  .tip-submissions .text-wrapper-2 {
+    color: #505050;
+    font-family: "Inter-Medium", Helvetica;
+    font-size: 11px;
+    font-weight: 500;
+    left: 0;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 0;
+  }
+  
+  .tip-submissions .image-2 {
+    height: 146px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 333px;
+  }
+  
+  .tip-submissions .flexcontainer {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 1.01px;
+    height: 38px;
+    left: 15px;
+    position: absolute;
+    top: 161px;
+    width: 308px;
+  }
+  
+  .tip-submissions .text {
+    align-self: stretch;
+    color: #364459;
+    font-family: "Inter-Medium", Helvetica;
+    font-size: 15.1px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 18.5px;
+    position: relative;
+  }
+  
+  .tip-submissions .span {
+    color: #364459;
+    font-family: "Inter-Medium", Helvetica;
+    font-size: 15.1px;
+    font-weight: 500;
+    letter-spacing: 0;
+    line-height: 18.5px;
+  }
+  
+  .tip-submissions .share-tip-button {
+    height: 50px;
+    left: 72px;
+    position: absolute;
+    top: 308px;
+    width: 238px;
+  }
+  
+  .tip-submissions .tip-section-header {
+    height: 278px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 689px;
+  }
+  
+  .tip-submissions .overlap-2 {
+    height: 278px;
+    position: relative;
+    width: 683px;
+  }
+  
+  .tip-submissions .rectangle {
+    background-color: #c7e786;
+    height: 182px;
+    left: 0;
+    position: absolute;
+    top: 87px;
+    width: 378px;
+  }
+  
+  .tip-submissions .ellipse-2 {
+    background-color: #ffffff26;
+    border-radius: 102.74px;
+    height: 205px;
+    left: 209px;
+    position: absolute;
+    top: 0;
+    width: 205px;
+  }
+  
+  .tip-submissions .ellipse-3 {
+    background-color: #ffffff26;
+    border-radius: 62.45px;
+    height: 125px;
+    left: 302px;
+    position: absolute;
+    top: 153px;
+    width: 125px;
+  }
+  
+  .tip-submissions .text-wrapper-3 {
+    color: #364459;
+    font-family: "Inter-Medium", Helvetica;
+    font-size: 9.4px;
+    font-weight: 500;
+    left: 29px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 229px;
+  }
+  
+  .tip-submissions .tip-submissions-back {
+    color: #ffffff26;
+    font-family: "Inter-Medium", Helvetica;
+    font-size: 67.5px;
+    font-weight: 500;
+    left: 154px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 193px;
+  }
+  
+  .tip-submissions .text-wrapper-4 {
+    color: #364459;
+    font-family: "Inter-Medium", Helvetica;
+    font-size: 30.2px;
+    font-weight: 500;
+    left: 23px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 191px;
+    width: 237px;
+  }
+  
+  .tip-submissions .back-arrow {
+    height: 24px;
+    left: 23px;
+    position: absolute;
+    top: 148px;
+    width: 24px;
+  }
+  
+  .tip-submissions .element-dots {
+    height: 22px;
+    left: 351px;
+    position: absolute;
+    top: 149px;
+    width: 4px;
+  }
+  
+  .tip-submissions .ellipse-4 {
+    background-color: #364459;
+    border-radius: 2.01px;
+    height: 4px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 4px;
+  }
+  
+  .tip-submissions .ellipse-5 {
+    background-color: #364459;
+    border-radius: 2.01px;
+    height: 4px;
+    left: 0;
+    position: absolute;
+    top: 9px;
+    width: 4px;
+  }
+  
+  .tip-submissions .ellipse-6 {
+    background-color: #364459;
+    border-radius: 2.01px;
+    height: 4px;
+    left: 0;
+    position: absolute;
+    top: 18px;
+    width: 4px;
+  }
+  
+  .tip-submissions .tip-search-bar {
+    height: 50px;
+    left: 22px;
+    position: absolute;
+    top: 243px;
+    width: 335px;
+  }
+  
+  .tip-submissions .overlap-3 {
+    background-color: #ffffff;
+    border-radius: 90.66px;
+    box-shadow: 3.02px 5.04px 20.15px #b5b5b526;
+    height: 50px;
+    position: relative;
+    width: 333px;
+  }
+  
+  .tip-submissions .text-wrapper-5 {
+    color: #d2d2d2;
+    font-family: "Inter-Medium", Helvetica;
+    font-size: 14.1px;
+    font-weight: 500;
+    left: 50px;
+    letter-spacing: 0;
+    line-height: normal;
+    position: absolute;
+    top: 17px;
+  }
+  
+  .tip-submissions .div-wrapper {
+    height: 14px;
+    left: 25px;
+    position: absolute;
+    top: 18px;
+    width: 13px;
+  }
+  
+  .tip-submissions .overlap-group-3 {
+    height: 14px;
+    position: relative;
+  }
+  
+  .tip-submissions .ellipse-7 {
+    border: 1.71px solid;
+    border-color: #d2d2d2;
+    border-radius: 5.87px/5.82px;
+    height: 12px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    transform: rotate(-4.72deg);
+    width: 12px;
+  }
+  
+  .tip-submissions .rectangle-2 {
+    background-color: #d2d2d2;
+    border-radius: 3.02px;
+    height: 5px;
+    left: 10px;
+    position: absolute;
+    top: 9px;
+    transform: rotate(-46.67deg);
+    width: 2px;
+  }
+  
+  .tip-submissions .app-tabs-tips {
+    height: 818px;
+    left: 0;
+    position: absolute;
+    top: 86px;
+    width: 378px;
+  }
+  
