@@ -2,6 +2,7 @@
 .app {
     font-family: 'Monaco', monospace;
     background-color: #e8f5e9; /* light green */
+    height: 100vh;
   }
   
   .tip {
