@@ -73,6 +73,9 @@ function Tips_Home() {
 
   return (
     <div className="app">
+      <nav >
+          <Navigation />
+      </nav>
       <Navbar bg="light" expand="lg">
         <Navbar.Brand href="#home">Tip Submissions</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
