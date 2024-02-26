@@ -1,0 +1,23 @@
+/* * {
+    background-color: #F9F7F1;
+} */
+
+.sideImage {
+    margin-top: 30px;
+    margin-left: 35px;
+    width: 650px;
+    height: 95vh;
+    object-fit: cover;
+}
+
+.formGuy{
+    margin-top: 10px;
+}
+
+.formHead{
+    width: 300px;
+    height: 250px;
+    margin-left: 25%;
+    margin-top: 10%;
+    border-radius: 60%;
+}
