@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './public/main.css';
 import Navigation from './components/navbar';
-import Home from './routes/Home';
+import Home from './routes/Home.jsx';
 
 function Main() {
   return (
