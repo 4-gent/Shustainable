@@ -1,0 +1,56 @@
+.IntroCarousel{
+    display: block;
+    margin: auto;
+    text-decoration: none;
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+    border-color: transparent;
+}
+.IntroCarouselItem{
+    padding: 100px;
+    color: #6A6F7D !important;
+    text-align: center;
+    border-color: transparent;
+
+}
+.carImage{
+    display: block;
+    margin: auto;
+    height: auto;
+    width: 20%;
+    margin-top: 20px;
+}
+.carBtn1{
+    background-color: #f7b492;
+    border-radius: 3px;
+    width: 75%;
+    height: 5vh;
+    border-color: transparent;
+    text-decoration: none;
+    box-shadow: 0px 4px 10px -5px #332D2D;
+    color: #6A6F7D !important;
+
+}
+.carBtn2{
+    background-color: #ffd97d;
+    border-radius: 3px;
+    width: 75%;
+    height: 5vh;
+    border-color: transparent;
+    text-decoration: none;
+    box-shadow: 0px 4px 10px -5px #332D2D;
+    color: #6A6F7D !important;
+
+}
+.carBtn3{
+    background-color: #e2d8a0;
+    border-radius: 3px;
+    width: 75%;
+    height: 5vh;
+    border-color: transparent;
+    text-decoration: none;
+    box-shadow: 0px 4px 10px -5px #332D2D;
+    color: #6A6F7D !important;
+
+}

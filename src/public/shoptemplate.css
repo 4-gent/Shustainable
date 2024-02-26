@@ -1,0 +1,10 @@
+.shopTemplate{
+    background-color: #F9F7F1;
+    margin-top: 40px;
+}
+.imageShop{
+    border: 10px solid white;
+    border-radius: 10px;
+    width: auto;
+    height: 80%;
+}
