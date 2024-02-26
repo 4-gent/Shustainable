@@ -1,14 +1,16 @@
 import logo from './logo.svg';
-import './main.css';
+import './public/main.css';
 import Navigation from './components/navbar';
+import Home from './routes/Home';
 
 function Main() {
   return (
     <div className="App">
       <nav>
         <Navigation />
+        <Home />
       </nav>
-      <header className="App-header">
+      {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -22,7 +24,7 @@ function Main() {
         >
           Learn React
         </a>
-      </header>
+      </header> */}
     </div>
   );
 }

@@ -1,0 +1,75 @@
+body {
+    background-color: #F9F7F1;
+    z-index: -1;
+}
+
+.topImg {
+    margin-left: 30%;
+    margin-top: 20px;
+    width: 500px;
+    height: auto;
+    z-index: -1;
+    top:0;
+}
+
+.tip {
+    margin-top: 20%;
+    /* position: absolute;
+    top: 1; */
+    margin-left: 15%;
+    width: 70%;
+    height: fit-content;
+    border: 2px solid #C7E886;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.2);
+}
+
+.tipHead {
+    text-align: center;
+    color: black;
+    font-size: 30px;
+}
+
+.tipPg {
+    text-align: center;
+    color: black;
+    font-size: 25px;
+}
+
+.weirdThing {
+    margin-top: 4%;
+    background-color: #F9F7F1;
+    border-top: 5px solid black;
+    max-width: 1440px;
+    height: auto;
+    border-radius: 30%;
+    box-shadow: 0px -12px 10px 0px #e8e6e1;
+
+}
+
+.cards {
+    margin-top: 4%;
+    margin-left: 15%;
+    margin-right: 12%;
+    padding-top: 30px;
+    padding-left: 15px;
+    background-color: #FFD97D;
+    box-shadow: 6px 6px 6px 6px rgba(0, 0, 0, 0.2);
+    border-radius: 50px;
+    height: auto;
+
+}
+
+.acard {
+    box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.2);
+}
+
+.randCol {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.placeThing {
+    
+}

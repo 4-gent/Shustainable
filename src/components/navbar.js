@@ -2,7 +2,6 @@ import React from "react";
 import { Navbar, Container, Nav } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../public/navbar.css';
-import signOn from '../routes/signOn';
 
 export default function Navigation(){
     return(
