@@ -2,6 +2,9 @@
 import React, { useState } from 'react';
 import { Button, Modal, Form, Navbar, Nav, Container, Card } from 'react-bootstrap';
 import './Tips.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import boba_background from './boba_background.jpg';
+import tomatoes_background from './tomatoes_background.jpg';
 
 const initialTips = [
   {
@@ -9,7 +12,7 @@ const initialTips = [
     title: 'Grow your own fruits and veggies to avoid buying plastic packaging.',
     author: 'Shyla Monic',
     votes: 0,
-    image: 'url_to_image_1',
+    image: tomatoes_background,
     liked: false,
     saved: false
   },
@@ -18,7 +21,7 @@ const initialTips = [
     title: 'Businesses: Sell bubble tea in paper cups',
     author: 'Taylor Swift',
     votes: 0,
-    image: 'url_to_image_2',
+    image: boba_background,
     liked: false,
     saved: false
   }
