@@ -22,10 +22,9 @@ export default function Navigation(){
                     <Navbar.Collapse />
                         <Nav >
                             <Nav.Link href="/" style={fontStyle}>HOME</Nav.Link>
-                            <Nav.Link href="/whatisshustainablle" style={fontStyle}>Thingy</Nav.Link>
                             <Nav.Link href="/profile" style={fontStyle}>PROFILE</Nav.Link>
                             <Nav.Link href='/signOn' style={fontStyle}>LOGIN</Nav.Link>
-                            <Nav.Link href="/tips" style={fontStyle}>Tips</Nav.Link>
+                            <Nav.Link href="/tips" style={fontStyle}>TIPS</Nav.Link>
                         </Nav>
                 </Container>
             </Navbar>

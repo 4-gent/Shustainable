@@ -25,7 +25,7 @@ export default function SavedList({icon, title, color}){
             >
             <Grid container spacing={2} className="" style={{marginLeft:'8%'}}>
                 <Grid item style={{marginTop: '5px'}}>
-                    {icon}
+                   <a href="/shop"> {icon} </a>
                 </Grid>
                 <Grid item xs={12} sm container>
                     <Grid item xs container direction="column" spacing={2}>

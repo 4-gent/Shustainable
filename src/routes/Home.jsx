@@ -11,15 +11,17 @@ import SavedList from '../components/savedList'
 import { FaHeart } from "react-icons/fa";
 import { FaPersonRunning } from "react-icons/fa6";
 import { BsStars } from "react-icons/bs";
+import Navigation from '../components/navbar'
 
 function home() {
   return (
     <>
     <div className=''>
+        <Navigation/>
         <div>
             <img className="topImg" src={dude} alt="" style={{position: 'absolute'}} />   
         </div>
-        <div className='tip' >
+        <div className='tip' style={{marginTop: '20%'}} >
             <h1 className='tipHead'>Tip of the Day</h1>
             <p className='tipPg'>Stacking bananas on top of your head makes you taller.</p>
         </div>
@@ -27,6 +29,8 @@ function home() {
             <Row className='cards'>
             {icons.map((icon) => (
                 <Col className='mb-5 '>
+                    <a href="/shop">
+
                     <Card className='acard' style={{ width: '14rem'}}>
                     <Row className='randCol'>
                         <Col className='randcol'>
@@ -41,6 +45,7 @@ function home() {
                         </Col>
                     </Row>
                     </Card>
+                    </a>
                 </Col>
             ))}
             </Row>

@@ -5,6 +5,7 @@ import './Tips.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import boba_background from './boba_background.jpg';
 import tomatoes_background from './tomatoes_background.jpg';
+import Navigation from '../../components/navbar'
 
 const initialTips = [
   {
@@ -73,9 +74,7 @@ function Tips_Home() {
 
   return (
     <div className="app">
-      <nav >
-          <Navigation />
-      </nav>
+      <Navigation/>
       <Navbar bg="light" expand="lg">
         <Navbar.Brand href="#home">Tip Submissions</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

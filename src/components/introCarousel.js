@@ -20,7 +20,7 @@ export default function IntroCarousel(){
             setActiveIndex(nextIndex)
         }
         else{
-            window.location.href = '/signup'
+            window.location.href = '/signOn'
             setActiveIndex(0)
         }
     }

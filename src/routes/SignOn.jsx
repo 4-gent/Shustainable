@@ -1,13 +1,24 @@
 import React from 'react'
+import { useState,useEffect } from 'react'
 import Form from 'react-bootstrap/Form'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import Button from 'react-bootstrap/Button';
 import lady from '../public/images/signOn.png'
 import logo from '../public/images/SH.png'
+import { Link } from 'react-router-dom';
 import '../public/signOn.css'
 
-function signOn() {
+function SignOn() {
+    const[activeIndex, setActiveIndex] = useState(false);
+
+    const handleNext = () => {
+            setActiveIndex(true);
+            if(activeIndex === true){
+                window.location.href = '/Home'
+            }
+    }
+
   return (
     <>
     <div className=''>
@@ -20,7 +31,7 @@ function signOn() {
             </Col>
 
             <Col>
-                <img className="formHead" src={lady} alt="" />   
+                <img className="formHead" src={lady} alt="" onSubmit={handleNext} />   
                 <Form className='formGuy' style= {{marginLeft:'15%', marginRight:'18%'}}>
                     <Form.Group className="mb-3" controlId="formBasicEmail">
                             <Form.Label>Email address</Form.Label>
@@ -38,9 +49,10 @@ function signOn() {
                         {/* <Form.Group className="mb-3" controlId="formBasicCheckbox">
                             <Form.Check type="checkbox" label="Check me out" />
                         </Form.Group> */}
-                        <Button variant="" type="submit" style={{backgroundColor:'#C9EAE5'}}>
+                        <Link to="/Home"><Button variant="" type="submit" style={{backgroundColor:'#C9EAE5'}}>
                             Submit
-                        </Button>
+                        </Button></Link>
+
                 </Form>
             
             </Col>
@@ -52,4 +64,4 @@ function signOn() {
   )
 }
 
-export default signOn
+export default SignOn
